@@ -10,11 +10,11 @@ get "/" do
 end
 
 get "/index" do
-  erd :index
+  erb :index
 end
 
 get "/layout" do
-  erd :layout
+  erb :layout
 end
 
 class Contact < ActiveRecord::Base
